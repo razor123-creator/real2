@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Her Essentials</title>
+  <link rel="stylesheet" href="blackbox.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About us </a></li>
+        <li><a href="#portfolio">What we do</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h1>About us</h1>
+      <p>We are a brand that have exsisted for over 5 years we have sold up to 500 jwelries to alot of people over the years .</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>
+          <a href="project1">
+            
+            <p>Project1</p>
+          </a>
+        </li>
+        <li>
+          <a href="project2.html">
+            <img src="project2.jpg" alt="Project 2"></a>
+            <p>We are a brand that connects fashion and godliness in the best    </p>
+          
+        </li>
+        <li>
+          <a href="project3.html">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Project 3 Description</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact us for more enquires</h2>
+      <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
